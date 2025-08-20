@@ -1,74 +1,76 @@
-body{
-    background: rgb(150,0,255);
-    color: rgb(0,115,255);
-    padding: 10px;
-    font-family:sans-serif;
+body {
+  background: rgb(0, 0, 255);
+  color: rgb(0, 115, 255);
+  padding: 10px;
+  font-family: sans-serif;
 }
-#all-contentt {
-    max-width: 800px;
-    margin: auto;
+#all-content {
+  max-width: 800px;
+  margin: auto;
 }
 /*navigation menu */
 nav {
-    background: rgb(150, 0, 255);
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
+  background: rgb(0, 0, 255);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 h1 {
-    display: flex;
-    align-items: center;
-    color: white;
-    flex: 1;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  color: rgb(250, 3, 3);
+  flex: 1;
+  margin: 0;
 }
 
 #nav-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 5 10px;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #f90303;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
-    display: flex;
-    margin-top: 20px;
+  background: rgb(255, 2, 2);
+  display: flex;
+  margin-top: 0px;
 }
 
 .sidebar {
-    margin-right: 25px;
-    padding: 10px;
+  margin-right: 25px;
+  padding: 100px;
 }
 
 .sidebar-img {
-    width: 200px;
+  width: 180px;
 }
 
 .content {
-    flex: 1;
-    padding: 15px;
+  flex: 1;
+  padding: 15px;
 }
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
-    padding: 8px;
-    margin-top: 20px;
+  border: 4px red ridge;
+  padding: 8px;
+  margin-top: 35px;
 }
 
-h2, h3 {
-    margin: 0px;
+h2,
+h3 {
+  margin: 50px;
 }
