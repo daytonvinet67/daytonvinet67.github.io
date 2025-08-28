@@ -1,6 +1,6 @@
 body {
   background: rgb(253, 253, 255);
-  color: rgb(0, 115, 255);
+  color: rgb(38, 67, 232);
   padding: 10px;
   font-family: sans-serif;
 }
@@ -10,7 +10,7 @@ body {
 }
 /*navigation menu */
 nav {
-  background: rgb(121, 121, 227);
+  background: rgb(50, 123, 241);
   margin: 0 auto;
   display: flex;
   padding: 10px;
@@ -44,7 +44,7 @@ a {
 
 /* main container area beneath menu */
 main {
-  background: rgb(13, 222, 176);
+  background: rgb(255, 0, 0);
   display: flex;
   margin-top: 0px;
 }
@@ -76,7 +76,7 @@ h3 {
 }
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: rgb(131, 252, 159);
 }
 
 #portfolio {
@@ -97,7 +97,7 @@ h3 {
 
 #portfolio a {
   text-decoration: none;
-  color: #454545;
+  color: #dd4242;
 }
 /* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
